@@ -2,5 +2,11 @@
 def multiplicar(a, b):
     return a * b
 
+# Función de división
+def dividir(a, b):
+    if b == 0:
+        return "Error: no se puede dividir entre cero"
+    return a / b
+
 
 print("Multiplicación:", multiplicar(5, 3))
