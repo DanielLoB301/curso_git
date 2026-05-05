@@ -9,3 +9,6 @@ def multiplicacion_dos_numeros(a,b):
 
 def division_dos_numeros(a,b):
     return a / b
+
+def potencia(a,b):
+    return a * b
