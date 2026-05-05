@@ -30,3 +30,6 @@ def es_primo(n):
         if n % i == 0:
             return False
     return True
+def fibonacci(n):
+    if n < 0:
+        return "Error: No se puede calcular el Fibonacci de un número negativo"
