@@ -28,6 +28,10 @@ def factorial(n):
             resultado *= i
         return resultado
     
-print(sumar(5, 3))          # Salida: 8
-print(restar(10, 4))       # Salida: 6
-print(multiplicar(7, 6))   # Salida: 42
+print(sumar(5, 3))        
+print(restar(10, 4))       
+print(multiplicar(7, 6))   
+print(dividir(20, 5))    
+print(potencia(2, 3))    
+print(raiz_cuadrada(16)) 
+print(factorial(5))       
