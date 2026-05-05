@@ -32,8 +32,15 @@ def potencia(a: Number, b: Number) -> Number:
 	return a ** b
 
 def modulo(a: Number, b: Number) -> Number:
+
 	"""Devuelve el resto de la división a % b. Lanza ZeroDivisionError si b es 0."""
 	if b == 0:
 		raise ZeroDivisionError("Módulo por cero")
+	return a % b
+
+# ======= simulación de corrección de errores =======
+	"""Devuelve el módulo (residuo) de a entre b. Lanza ZeroDivisionError si b es 0."""
+	if b == 0:
+		raise ZeroDivisionError("División por cero")
 	return a % b
 
