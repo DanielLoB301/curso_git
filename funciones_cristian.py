@@ -26,3 +26,7 @@ def raiz_cuadrada(x: Number) -> float:
 	if x < 0:
 		raise ValueError("No se puede calcular la raíz cuadrada de un número negativo")
 	return math.sqrt(x)
+
+def potencia(a: Number, b: Number) -> Number:
+	"""Devuelve a elevado a la potencia b."""
+	return a ** b
