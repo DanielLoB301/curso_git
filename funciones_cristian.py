@@ -30,3 +30,9 @@ def raiz_cuadrada(x: Number) -> float:
 def potencia(a: Number, b: Number) -> Number:
 	"""Devuelve a elevado a la potencia b."""
 	return a ** b
+
+def modulo(a: Number, b: Number) -> Number:
+	"""Devuelve el módulo (residuo) de a entre b. Lanza ZeroDivisionError si b es 0."""
+	if b == 0:
+		raise ZeroDivisionError("División por cero")
+	return a % b
