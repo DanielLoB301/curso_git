@@ -1,0 +1,6 @@
+# Función de multiplicación
+def multiplicar(a, b):
+    return a * b
+
+
+print("Multiplicación:", multiplicar(5, 3))
