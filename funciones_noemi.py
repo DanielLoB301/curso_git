@@ -10,3 +10,8 @@ def resta(a, b):
 # Función multiplicación
 def multiplicacion(a, b):
     return a * b
+
+
+# Función división
+def division(a, b):
+    return a/b
