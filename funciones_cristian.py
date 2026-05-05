@@ -31,3 +31,9 @@ def potencia(a: Number, b: Number) -> Number:
 	"""Devuelve a elevado a la potencia b."""
 	return a ** b
 
+def modulo(a: Number, b: Number) -> Number:
+	"""Devuelve el resto de la división a % b. Lanza ZeroDivisionError si b es 0."""
+	if b == 0:
+		raise ZeroDivisionError("Módulo por cero")
+	return a % b
+
