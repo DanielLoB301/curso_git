@@ -1,5 +1,3 @@
-##Esta es funciones de operaciones 
-
 a = int(input("Ingrese un numero a: "))
 b = int(input("Ingrese numero b: "))
 
