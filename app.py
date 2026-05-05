@@ -1,6 +1,0 @@
-print("Hola GIT")
-print("Test commit")
-print("Jose Daniel Lopez Belmonte")
-print("Conflicto usuario 2")
-print("Conflicto GIT")
-print("Visaul studio")
