@@ -29,17 +29,16 @@ def es_primo(n):
     for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
             return False
-    return True
+    return True 
 def fibonacci(n):
     if n < 0:
         return "Error: No se puede calcular el Fibonacci de un número negativo"
-n=10
-print("Fibonacci de", n, "es", fibonacci(n))
-n=30
-print("Fibonacci de", n, "es", fibonacci(n))
-n=19
-print("Fibonacci de", n, "es", fibonacci(n))
-n=18
-print("Fibonacci de", n, "es", fibonacci(n))
-n=17
-print("Fibonacci de", n, "es", fibonacci(n))
+    elif n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        a, b = 0, 1
+        for _ in range(2, n + 1):
+            a, b = b, a + b
+        return b
