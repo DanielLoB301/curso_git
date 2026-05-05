@@ -9,3 +9,7 @@ def resta(num1, num2):
 def multiplicacion(num1, num2):
     res = num1 + num2
     return res
+
+def division(num1, num2):
+    res = num1 / num2
+    return res
