@@ -1,4 +1,3 @@
-# Funciones matemáticas básicas
 def sumar(a, b):
     return a + b
 def restar(a, b):
@@ -26,12 +25,3 @@ def factorial(n):
         resultado = 1
         for i in range(2, n + 1):
             resultado *= i
-        return resultado
-    
-print(sumar(5, 3))        
-print(restar(10, 4))       
-print(multiplicar(7, 6))   
-print(dividir(20, 5))    
-print(potencia(2, 3))    
-print(raiz_cuadrada(16)) 
-print(factorial(5))       
