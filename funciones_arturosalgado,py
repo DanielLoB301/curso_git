@@ -14,3 +14,5 @@ def raiz_cuadrada(a):
     return math.sqrt(a)
 
 print("Multiplicación:", multiplicar(5, 3))
+print("División:", dividir(10, 2))
+print("Raíz cuadrada:", raiz_cuadrada(16))
