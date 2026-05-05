@@ -1,4 +1,4 @@
-prinr ("commit 1")
-print ("commit 2")
-print ("commit 3")
-print ("commit 4")
+print("Commit 1 ")
+print("Commit 12")
+print("Commit 123")
+print("Commit 1234")
