@@ -8,4 +8,6 @@ def suma(a, b):
 def resta(a, b)
     return print(a - b)
 
-    
+/* tercera funcion de division */
+def division(a, b)
+    return print(a / b)
