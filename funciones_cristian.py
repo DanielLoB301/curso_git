@@ -26,4 +26,3 @@ def raiz_cuadrada(x: Number) -> float:
 	if x < 0:
 		raise ValueError("No se puede calcular la raíz cuadrada de un número negativo")
 	return math.sqrt(x)
-
