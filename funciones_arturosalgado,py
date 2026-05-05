@@ -8,10 +8,6 @@ def dividir(a, b):
         return "Error: no se puede dividir entre cero"
     return a / b
 
-def raiz_cuadrada(a):
-    if a < 0:
-        return "Error: no se puede calcular la raíz de un número negativo"
-    return math.sqrt(a)
 
 print("Multiplicación:", multiplicar(5, 3))
 print("División:", dividir(10, 2))
