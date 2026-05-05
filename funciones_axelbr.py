@@ -33,3 +33,13 @@ def es_primo(n):
 def fibonacci(n):
     if n < 0:
         return "Error: No se puede calcular el Fibonacci de un número negativo"
+n=10
+print("Fibonacci de", n, "es", fibonacci(n))
+n=30
+print("Fibonacci de", n, "es", fibonacci(n))
+n=19
+print("Fibonacci de", n, "es", fibonacci(n))
+n=18
+print("Fibonacci de", n, "es", fibonacci(n))
+n=17
+print("Fibonacci de", n, "es", fibonacci(n))
