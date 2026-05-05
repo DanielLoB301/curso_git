@@ -38,6 +38,10 @@ def modulo(a: Number, b: Number) -> Number:
 		raise ZeroDivisionError("Módulo por cero")
 	return a % b
 
+def promedio(a: Number, b: Number) -> float:
+	"""Devuelve el promedio de a y b."""
+	return (a + b) / 2
+
 # ======= simulación de corrección de errores =======
 	"""Devuelve el módulo (residuo) de a entre b. Lanza ZeroDivisionError si b es 0."""
 	if b == 0:
